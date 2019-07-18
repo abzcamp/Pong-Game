@@ -12,7 +12,7 @@ export default class Game {
     this.width = width;
     this.height = height;
 
-     this.gameElement = document.getElementById(this.element)
+    this.gameElement = document.getElementById(this.element)
     this.board = new Board(this.width, this.height)
 
     this.paddleWidth = 8
